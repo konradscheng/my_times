@@ -39,14 +39,129 @@ a {
 color: black;
 }
 
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
 .column.large {
   width: 630px;
+  padding: 20px;
 }
 
 .column.medium {
   width: 300px;
+  padding: 20px;
 }
 
 .column.small {
   width: 240px;
+  padding: 20px;
+}
+
+.lead-story-img {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 300px;
+}
+
+.story-img {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.lead-story .lead-story-img {
+  background-image: url(../../resources/images/img-story-main.png);
+}
+
+.story-one .story-img {
+  background-image: url(../../resources/images/img-story-2.png);
+}
+
+.story-two .story-img {
+  background-image: url(../../resources/images/img-story-3.png);
+}
+
+.story-four .story-img {
+  background-image: url(../../resources/images/img-story-1.png);
+}
+
+.story-text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.column.large .stories {
+  display: flex;
+}
+
+.column.large .stories .story {
+  padding: 10px;
+}
+
+.lead-story-img {
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story .story-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.news-bites-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.news-bites-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.news-bites-text span {
+  height: 50px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+}
+
+.bottom-logo {
+  display: flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.bottom-nav {
+  display: flex;
 }
