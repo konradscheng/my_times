@@ -1,0 +1,52 @@
+header {
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+
+.header-container {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.logo {
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+}
+
+.my-times {
+  padding-left: 15px;
+}
+
+.top-nav {
+  display: flex;
+  width: 300px;
+  padding-right: 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+color: black;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
